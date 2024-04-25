@@ -53,8 +53,9 @@ ol {
 
 .content {
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
     width: 1140px;
+    gap: 30px;
 }
 
 .result {
@@ -67,7 +68,7 @@ ol {
 
 .content__list {
     height: 298px;
-    overflow: hidden auto;
+    overflow: auto;
     position: relative;
 }
 
@@ -83,8 +84,7 @@ ol {
 
 .result__video {
     width: 100%;
-    height: 386px;
-    margin-top: 78px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -158,6 +158,8 @@ ol {
 .result__video-container {
     margin-bottom: 16px;
     position: relative;
+    width: 711px;
+    height: 386px;
 }
 
 .search-form__fieldset-title {
@@ -175,6 +177,7 @@ ol {
     line-height: 0.96;
     text-transform: uppercase;
     margin-bottom: 21px;
+    padding-right: 135px 
 }
 
 .content__accent {
@@ -283,6 +286,3 @@ ol {
     outline-offset: -3px;
 }
 
-.error {
-    margin-top: 78px;
-}
